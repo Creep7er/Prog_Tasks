@@ -13,7 +13,7 @@ int main() {
     for (int i = 0; i < K;){
         cout << N;
         i++;
-        
+         
     }
 
     return 0;
