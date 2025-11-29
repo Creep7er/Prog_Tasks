@@ -22,11 +22,6 @@
 m = int(input())
 p = int(input())
 
-from math import gcd
-
-def lcm(x, y):
-    return x * y // gcd(x, y)
-
 limit = 2 * m * p
 found = False
 
