@@ -1,10 +1,5 @@
-A = float(input("A: "))
+x = int(input("X: "))
 
-temp = A * A 
-print(f"A^2 = {temp}")
+y = 4 * (x-3)**6 - 7 * (x-3)**3 + 2
 
-temp = temp * temp
-print(f"A^4 = {temp}")
-
-temp = temp * temp 
-print(f"A^8 = {temp}")
+print(y)
