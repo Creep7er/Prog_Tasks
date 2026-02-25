@@ -1,9 +1,10 @@
 from math import inf
 
+count = 0
+
 K = int(input("K? "))
 j = 0
-last_index = 0 
-
+maxs = -inf
 while True:
     j += 1
     i = int(input(f"{j}:"))
@@ -11,6 +12,9 @@ while True:
         break
 
     if i > K:
-        last_index = j
+        maxs = i
+    if maxs == -inf:
+        count += 1
 
-print(last_index)
+
+print(count+1)
