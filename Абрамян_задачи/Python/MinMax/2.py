@@ -1,14 +1,16 @@
 from math import inf
 
-count = 0
-N = int(input("K? "))
-min = inf
-for _ in range(N)
-    i = int(input(f"{_}:"))
-    if i < K:
-        min = i
-    if maxs == -inf:
-        count += 1
 
+N = int(input("N? "))
 
-print(count+1)
+j = 0
+mins = inf
+
+for _ in range(N):
+    j += 1
+    a = int(input(f"Прямоугольник{j} a:"))
+    b = int(input(f"Прямоугольник{j} b:"))
+    if a*b < mins:
+        mins = a*b
+
+print(mins)

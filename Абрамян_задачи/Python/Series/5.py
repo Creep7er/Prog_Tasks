@@ -11,4 +11,3 @@ for i in range(n):
     sum += int(input_i)
     
 print("Сумма", sum)
-print("Произведение", proizv)
